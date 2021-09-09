@@ -70,4 +70,6 @@ Data: The data is available at [OMDB](https://www.omdbapi.com)
     hit this command inside of the terminal :
        sudo docker-compose -f docker-compose.yml -f docker-compose.dev.yml up -d --build -V
     
-        
+  
+- please sign up to the https://www.arvancloud.com/fa and then initiate your own s3 bucket .after that you must replace the
+  S3_ACCESS_KEY_ID and S3_SECRET_ACCESS_KEY variables with your bucket credentials.
